@@ -18,14 +18,16 @@ public class Fibonacci {
     int x = sc.nextInt();
     int a=0;
     int b=1;
+    int hasil=0;
     for ( int i=1; i<=x; i++)
     {
         System.out.print(" ");
-        System.out.print(a);
         a=a+b;
         b=a-b;
+        hasil=hasil+a;
             
     }
+    System.out.println(hasil);
     System.out.println(" ");
     }
     }
